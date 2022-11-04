@@ -1,0 +1,28 @@
+{
+  "name": "publish-site-with-ipns",
+  "version": "1.0.0",
+  "description": "Publishes and republishes a website to ipfs using node, npm and ipns naming",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://javaspeak@github.com/javaspeak/publish-site-with-ipns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javaspeak/publish-site-with-ipns/issues"
+  },
+  "homepage": "https://github.com/javaspeak/publish-site-with-ipns#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "properties-reader": "^2.2.0",
+    "url": "^0.11.0",
+    "web3.storage": "^4.4.0"
+  }
+}

@@ -1,3 +1,20 @@
+# ipns key files
+ipnskey.txt
+
+# sensitive properties files
+env.properties
+
+# website files
+/files
+/files/**
+
+# Mac files
+.DS_Store
+
+# Eclipse Files
+.project
+.settings
+
 # Logs
 logs
 *.log
